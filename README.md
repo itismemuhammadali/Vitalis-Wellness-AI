@@ -1,4 +1,8 @@
-# 🌿 Kyvo — AI-Powered Wellness & Habit Companion
+# 🌿 Vitalis — AI-Powered Wellness, Longevity & Habit Companion
+
+<p align="center">
+  <img src="assets/branding/logo.jpg" alt="Vitalis Wellness AI Logo" width="180" style="border-radius: 24px; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.35);" />
+</p>
 
 > **Cross-Platform AI Wellness & Habit Tracking Mobile Platform** built with **Expo SDK 54, React Native 0.81, TypeScript, Supabase, and Shopify React Native Skia**, featuring real-time conversational activity extraction ("Better Self Chat"), automated goal logging, and subscription monetization.
 
@@ -13,9 +17,9 @@
 
 ## 📌 Executive Summary
 
-**Kyvo** is a personal wellness companion application engineered to bridge the gap between unstructured daily thoughts and structured personal growth. At its core is **Better Self Chat**, an intelligent conversational interface backed by Edge AI that automatically detects, parses, and logs user habits, workouts, nutrition milestones, and emotional reflections directly into a normalized relational database.
+**Vitalis** is a personal wellness companion application engineered to bridge the gap between unstructured daily thoughts and structured personal growth. At its core is **Better Self Chat**, an intelligent conversational interface backed by Edge AI that automatically detects, parses, and logs user habits, workouts, nutrition milestones, and emotional reflections directly into a normalized relational database.
 
-Built on **Expo Router** and React 19, Kyvo features high-performance 2D graphics powered by **Shopify React Native Skia**, 60fps gesture-driven animations via **Reanimated 4**, and secure serverless state persistence via **Supabase**.
+Built on **Expo Router** and React 19, Vitalis features high-performance 2D graphics powered by **Shopify React Native Skia**, 60fps gesture-driven animations via **Reanimated 4**, and secure serverless state persistence via **Supabase**.
 
 ---
 
@@ -94,7 +98,7 @@ graph TD
 ## 📁 Project Structure
 
 ```
-kyvo/
+vitalis/
 ├── app/                              # Expo Router file-system routes
 │   ├── (tabs)/                       # Bottom tab navigation screens
 │   ├── lib/                          # Business logic & API services
@@ -122,8 +126,8 @@ kyvo/
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/itismemuhammadali/Kyvo-Wellness-AI.git
-cd Kyvo-Wellness-AI
+git clone https://github.com/itismemuhammadali/Vitalis-Wellness-AI.git
+cd Vitalis-Wellness-AI
 
 # Configure environment variables
 cp .env.example .env.local
