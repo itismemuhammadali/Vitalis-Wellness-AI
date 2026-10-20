@@ -1,0 +1,3 @@
+-- This migration adds deadline column to generated_goals
+-- (Already applied in previous deployment)
+-- Placeholder to maintain migration history

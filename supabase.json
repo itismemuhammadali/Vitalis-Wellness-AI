@@ -1,0 +1,16 @@
+{
+  "functions": [
+    {
+      "slug": "generate-questions",
+      "verify_jwt": false
+    },
+    {
+      "slug": "generate-goals",
+      "verify_jwt": false
+    },
+    {
+      "slug": "add-goal-xp",
+      "verify_jwt": false
+    }
+  ]
+}

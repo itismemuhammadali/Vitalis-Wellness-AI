@@ -1,0 +1,53 @@
+﻿{
+  "cli": {
+    "version": ">= 18.3.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://aikobdjkiioxqiqtffyc.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpa29iZGpraWlveHFpcXRmZnljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxMzc5NzMsImV4cCI6MjA4NzcxMzk3M30.mxj7PuUQLXvbgCiDcoSgv6-UR1wjkzvwhgcjqxtkF58",
+        "EXPO_PUBLIC_APP_URL": "kyvo://"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://aikobdjkiioxqiqtffyc.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpa29iZGpraWlveHFpcXRmZnljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxMzc5NzMsImV4cCI6MjA4NzcxMzk3M30.mxj7PuUQLXvbgCiDcoSgv6-UR1wjkzvwhgcjqxtkF58",
+        "EXPO_PUBLIC_APP_URL": "kyvo://"
+      }
+    },
+    "production-apk": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://aikobdjkiioxqiqtffyc.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpa29iZGpraWlveHFpcXRmZnljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxMzc5NzMsImV4cCI6MjA4NzcxMzk3M30.mxj7PuUQLXvbgCiDcoSgv6-UR1wjkzvwhgcjqxtkF58",
+        "EXPO_PUBLIC_APP_URL": "kyvo://"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://aikobdjkiioxqiqtffyc.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpa29iZGpraWlveHFpcXRmZnljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxMzc5NzMsImV4cCI6MjA4NzcxMzk3M30.mxj7PuUQLXvbgCiDcoSgv6-UR1wjkzvwhgcjqxtkF58",
+        "EXPO_PUBLIC_APP_URL": "kyvo://"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
